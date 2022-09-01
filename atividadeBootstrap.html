@@ -11,41 +11,41 @@
     <script src="atividadeBootstrap.php"></script>
 </head>
 <body >
-    <h4  class="text-center"><ion-icon name="calculator-outline"></ion-icon><span> Calculadora - Julia Salvador</span></h4>
+
+    <h4  class="text-center"><ion-icon name="construct-outline"></ion-icon><span> Calculadora - Julia Salvador</span></h4>
+
       <form  method="post" action="atividadeBootstrap.php">
+
         <div class="text-center">
             <input type="text" class="shadow-sm p-3 mb-5 bg-body rounded"  name="num1" placeholder="Primeiro número">
             <br>
             <input type="number" class="shadow-sm p-3 mb-5 bg-body rounded" name="num2" placeholder="Segundo número">
         </div>
-        <div class="position-absolute top-50 start-50 translate-middle" style="margin-top: -80px;">
-            <input class="form-check-input" type="radio" name="somar" id="flexRadioDefault1">
-            <label class="form-check-label" for="flexRadioDefault1">
-              Somar
-            </label>
 
-            <input class="form-check-input" type="radio" name="somar" id="flexRadioDefault1">
-            <label class="form-check-label" for="flexRadioDefault1">
-              Subtrair
-            </label>
-          
+        <div class="position-absolute top-50 start-50 translate-middle" style="margin-top: -80px;">
+
+            <input class="form-check-input" type="radio" name="opcoes" id="flexRadioDefault1" value="adicao">
+            <label class="form-check-label" for="flexRadioDefault1">Somar</label>
+
+            <input class="form-check-input" type="radio" name="opcoes" id="flexRadioDefault1" value="subtracao">
+            <label class="form-check-label" for="flexRadioDefault1">Subtrair</label> 
          
-            <input class="form-check-input" type="radio" name="somar" id="flexRadioDefault1">
-            <label class="form-check-label" for="flexRadioDefault1">
-              Multiplicar
-            </label>
-       
+            <input class="form-check-input" type="radio" name="opcoes" id="flexRadioDefault1" value="multiplicacao">
+            <label class="form-check-label" for="flexRadioDefault1">Multiplicar</label>
           
-            <input class="form-check-input" type="radio" name="somar" id="flexRadioDefault1">
-            <label class="form-check-label" for="flexRadioDefault1">
-              Dividir
-            </label>
+            <input class="form-check-input" type="radio" name="opcoes" id="flexRadioDefault1" value="divisao">
+            <label class="form-check-label" for="flexRadioDefault1">Dividir</label>
+
         </div>
+
         <div class="position-absolute top-50 start-50 translate-middle" style="margin-top: -20px">
-          <button type="button" class="btn btn-outline-dark" >Enviar</button>
+          <button type="submit" class="btn btn-outline-dark">Enviar <ion-icon name="navigate-outline"></ion-icon></button>
         </div>
+
     </form>
+
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>    
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>   
+    
 </body>
 </html>

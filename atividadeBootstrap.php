@@ -6,20 +6,21 @@ $calculo = $_POST['opcoes']; // pegara as opções dos botões a selecionar
 switch($calculo){ // Aqui ele realizará uma série de comparações em relação a operação inserida pelo usuário
     case 'adicao':
         $resultado = $num1 + $num2;
-        echo $resultado;
+        echo "O resultado é: $resultado";
         break;
     case 'subtracao': 
         $resultado = $num1 - $num2;
-        echo "<pre> O resultado é: $resultado </pre>";
+        echo "O resultado é: $resultado";
         break;
     case 'multiplicacao':  
         $resultado = $num1 * $num2;
-        echo $resultado;
+        echo "O resultado é: $resultado";
         break;
     case 'divisao':
         $resultado = $num1 / $num2;
-        echo $resultado;
+        echo "O resultado é: $resultado";
         break;
     default:
     echo "Selecione uma opção";
     }
+
