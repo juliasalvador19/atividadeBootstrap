@@ -20,7 +20,5 @@ switch($calculo){
         $resultado = $num1 / $num2;
         echo "O resultado de $num1 / $num2 é: $resultado";
         break;
-    default:
-        echo "Selecione uma opção";
     }
 

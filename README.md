@@ -1,2 +1,2 @@
 # atividadeBootstrap
-Atividade com Bootstrap - Programação Web I 
+Atividade com Bootstrap - Julia Salvador - Programação Web I 
